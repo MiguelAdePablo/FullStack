@@ -1,0 +1,56 @@
++--------------------------------------------------------------------------------------------------------+
+| [LOGO] EXPLORE  																						 |
+|		 Pens | Projects | Posts | Collections | [Spark ▼] | [Create ▼] | [🔍] | [Log In] | [Sign Up] |  |
++--------------------------------------------------------------------------------------------------------+
+|                                                          												 |
+|  [TITULO]                                               	[TITULO IMAGEN]								 |
+|  CodePen is a social development                          |--------------------------------------------|
+|  environment for front-end designers               	    |	IMAGEN							         |
+|  and developers. 👋                                 		|										     |
+|                                                           |											 |
+|  [SUBTITULO]                                              |											 |
+|  It's the best place to build and deploy a                |											 |
+|  website, show out your work, build test cases,           |											 |
+|  and find inspiration.                                    |											 |	
+|                                                           |											 |
+|  [BUTTON: Sign Up for Free]   [BUTTON: Learn More]        |											 |
+|                                                           |											 |
+|  															|--------------------------------------------|
++--------------------------------------------------------------------------------------------------------+
+| [CodePen for TEAMS]     [CodePen for EDUCATION]     [CodePen for PRIVACY]     [CodePen for WRITING]    |
++--------------------------------------------------------------------------------------------------------+
+
+
+TASTK 2
+
+Task Two: Use one of the following websites and the inspect tool to identify 2-3 colors used repeatedly as part of the site’s color scheme. Remember that different shades of gray and black can be included as a color.
+
+Web elegida: https://jonny.me/ 
+
+Blanco como fondo, o negro si se elige el modo oscuro.
+Un gris claro para los botones (f5f5f5) que se vuelve más oscuro al pasar sobre él
+Un rojo intenso e51954 sobre el botón Browse Work, que consigue llamar la antención
+Texto en negro para los títulos y gris para el cuerpo.
+
+
+TASK 3
+
+Create a user story by referencing one of these websites
+
+WWW.YOUTUBE.com
+
+El usuario que viaja en tren empieza a ver un video, llega su parada y el video no ha acabado, por lo que tiene que dejarlo inacabado.
+
+HERRAMIENTA
+
+Pulsamos el botón guardar y clickamos sobre Watch Later, de forma que podamos retomar el video más adelante.
+
+
+TASK 4
+Identify the prime objective of Facebook, Twitter, Google, and Youtube.
+
+WWW.yotube.com
+
+El objetivo de YouTube es maximizar el tiempo y la participación de sus usuarios viendo los videos que ofrece la plataformas, para ello además del contenido solicitado sugiere nuevo contendio en base a los conocimientos que tenga del usuario, por ejemplo, otros videos que haya visto anteriormente. Su fuente de ingresos proviende tanto de la publicidad como la gestión de los datos que las interacciones de los usuarios producen.
+
+
