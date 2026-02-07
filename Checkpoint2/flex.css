@@ -1,0 +1,207 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+
+/* ========================================
+   EJERCICIO 1: flexOne
+   ======================================== */
+
+.flexOne {
+    display: flex;
+}
+
+.flexOne .square {
+    margin: 5px;
+}
+
+/* ========================================
+   EJERCICIO 2: flexTwo
+   ======================================== */
+
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexTwo .square {
+    margin: 2px;
+}
+
+/* ========================================
+   EJERCICIO 3: flexThree
+   ======================================== */
+
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.flexThree .square {
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ========================================
+   EJERCICIO 4: flexFour
+   ======================================== */
+
+.flexFour {
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.flexFour .square {
+    margin: 5px;
+    background-color: #3d8b6d;
+}
+
+/* ========================================
+   EJERCICIO 5: flexFive
+   ======================================== */
+
+.flexFive {
+    display: flex;
+    width: 350px;
+}
+
+.flexFive .item {
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+#grow {
+    flex-grow: 2;
+}
+
+/* ========================================
+   EJERCICIO 6: flexSix
+   ======================================== */
+
+.flexSix {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;
+    flex-direction: column;
+}
+
+.flexSix .one,
+.flexSix .two,
+.flexSix .three {
+    display: flex;
+}
+
+.flexSix .one {
+    justify-content: space-around;
+}
+
+.flexSix .two {
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #d6d6d6;
+}
+
+.flexSix .three {
+    justify-content: space-evenly;
+}
+
+/* ========================================
+   EJERCICIO 7: flexSeven
+   ======================================== */
+
+.flexSeven {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+
+.flexSeven .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.flexSeven .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #D6D6D6;
+}
+
+.flexSeven .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f1f1f1;
+}
+
+.flexSeven .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+/* ========================================
+   EJERCICIO 8: flexEight
+   ======================================== */
+
+.flexEight {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: #eeeeee;
+}
+
+.flexEight .one,
+.flexEight .two,
+.flexEight .three {
+    display: flex;
+}
+
+.flexEight .one {
+    align-items: center;
+}
+
+.flexEight .two {
+    align-items: flex-end;
+}
+
+.flexEight .three {
+    align-items: flex-start;
+}
+
+/* ========================================
+   EJERCICIO 9: flexNine
+   ======================================== */
+
+.flexNine {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#special {
+    align-self: flex-end;
+}
