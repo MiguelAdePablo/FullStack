@@ -99,6 +99,7 @@ Para operar usan tanto operadores lógicos como de comparación
 |not|Negación (invierte el valor)|not x == 5|
 
 Imagen:
+
 ![](./Images/condicionales-anidados.png)
 
 
@@ -669,5 +670,6 @@ Imagen:
 - Real Python: https://realpython.com/
 - Python.org: https://www.python.org/
 - PyPI: https://pypi.org/
+
 
 
