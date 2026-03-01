@@ -1,4 +1,4 @@
-# ![](./Images/GitHub.png) &nbsp;&nbsp;   **MANUAL DE PYTHON PARA NUEVOS DESARROLLADORES**
+# ![](./Images/Github.png) &nbsp;&nbsp;   **MANUAL DE PYTHON PARA NUEVOS DESARROLLADORES**
 
 ## **INDICE**
 
@@ -669,4 +669,5 @@ Imagen:
 - Real Python: https://realpython.com/
 - Python.org: https://www.python.org/
 - PyPI: https://pypi.org/
+
 
