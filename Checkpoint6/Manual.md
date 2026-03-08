@@ -1174,7 +1174,7 @@ Casos de uso reales:
 
 API (Application Programming Interface) es un contrato de comunicación entre diferentes sistemas de software. Es como un menú de restaurante: te muestra qué opciones tienes sin revelar cómo se prepara cada plato en la cocina.
 
-![API](/Images/Api.png)
+![Api](./Images/api.png)
 
 **Analogía del restaurante**
 
@@ -3071,5 +3071,6 @@ Los decoradores son una de las características más poderosas y elegantes de Py
 - Python Tutorial: https://docs.python.org/3/tutorial/
 - Real Python: https://realpython.com/
 - Python.org: https://www.python.org/
+
 
 
