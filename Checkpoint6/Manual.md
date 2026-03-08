@@ -215,52 +215,52 @@ Las clases permiten:
     libro1.prestar("Beatriz")  # Debería fallar
 
     # Devolver libro
-    print("\n↩️  DEVOLUCIONES:")
+    print("\n  DEVOLUCIONES:")
     libro1.devolver()
 
     # Prestar de nuevo
     libro1.prestar("Beatriz")  # Ahora debería funcionar
 
     # Mostrar información actualizada
-    print("\n📊 ESTADO ACTUAL:")
+    print("\n ESTADO ACTUAL:")
     print(libro1.info())
     print(libro2.info())
     print(libro3.info())
 
     # Usar métodos de clase y estáticos
-    print(f"\n📚 Total de libros en el sistema: {Libro.obtener_total_libros()}")
-    print(f"✅ ISBN válido: {Libro.es_isbn_valido('978-3-16-148410-0')}")
-    print(f"❌ ISBN inválido: {Libro.es_isbn_valido('12345')}")
+    print(f"\n Total de libros en el sistema: {Libro.obtener_total_libros()}")
+    print(f" ISBN válido: {Libro.es_isbn_valido('978-3-16-148410-0')}")
+    print(f" ISBN inválido: {Libro.es_isbn_valido('12345')}")
 
     # Salida esperada:
     # ==================================================
     # SISTEMA DE GESTIÓN DE BIBLIOTECA
     # ==================================================
     # 
-    # 📚 LIBROS EN LA BIBLIOTECA:
+    # LIBROS EN LA BIBLIOTECA:
     # 'Cien años de soledad' por Gabriel García Márquez (1967) - Disponible
     # '1984' por George Orwell (1949) - Disponible
     # 'El Principito' por Antoine de Saint-Exupéry (1943) - Disponible
     # 
-    # 📖 PRESTAMOS:
+    # PRESTAMOS:
     # ✓ 'Cien años de soledad' prestado a Ana
     # ✓ '1984' prestado a Carlos
     # ✗ 'Cien años de soledad' no está disponible
     # 
-    # ↩️  DEVOLUCIONES:
+    # DEVOLUCIONES:
     # ✓ 'Cien años de soledad' devuelto por Ana
     # 
-    # 📖 PRESTAMOS:
+    # PRESTAMOS:
     # ✓ 'Cien años de soledad' prestado a Beatriz
     # 
-    # 📊 ESTADO ACTUAL:
+    # ESTADO ACTUAL:
     # 'Cien años de soledad' por Gabriel García Márquez (1967) - Prestado a Beatriz
     # '1984' por George Orwell (1949) - Prestado a Carlos
     # 'El Principito' por Antoine de Saint-Exupéry (1943) - Disponible
     # 
-    # 📚 Total de libros en el sistema: 3
-    # ✅ ISBN válido: True
-    # ❌ ISBN inválido: False
+    #  Total de libros en el sistema: 3
+    #  ISBN válido: True
+    #  ISBN inválido: False
 
 **Comparación: Clases vs Funciones**
 |Escenario|Usar Clases|Usar Funciones|
@@ -641,7 +641,7 @@ Características:
     else:
         print(f"✗ Error: {response.status_code}")
 
-    # ⚠️ IMPORTANTE: PUT reemplaza TODO el recurso
+    # IMPORTANTE: PUT reemplaza TODO el recurso
     # Si omites un campo, ¡se eliminará!
     response = requests.put(
         "https://api.example.com/users/123",
@@ -670,9 +670,9 @@ Características:
     if response.status_code == 204:  # No Content
         print("✓ Usuario eliminado correctamente")
     elif response.status_code == 404:
-        print("⚠️  Usuario no encontrado")
+        print(" Usuario no encontrado")
     elif response.status_code == 403:
-        print("❌ No tienes permisos para eliminar este usuario")
+        print(" No tienes permisos para eliminar este usuario")
     else:
         print(f"✗ Error: {response.status_code}")
 
@@ -1196,8 +1196,8 @@ API (Application Programming Interface) es un contrato de comunicación entre di
     │  │   (Protocolo)   │                                    │
     │  └─────────────────┘                                    │
     └─────────────────────────────────────────────────────────┘
-            │
-            ▼
+                │
+                ▼
     ┌─────────────────────────────────────────────────────────┐
     │              CLIENTE (Tu aplicación)                    │
     │                                                         │
@@ -1928,7 +1928,7 @@ Clases hijas sobrescriben métodos de la clase padre para darles un comportamien
         
         def enviar(self):
             """Implementación específica para email"""
-            print(f"📧 Enviando email a {self.destinatario}")
+            print(f"   Enviando email a {self.destinatario}")
             print(f"   Asunto: {self.asunto}")
             print(f"   Mensaje: {self.mensaje}")
             print(f"   ✓ Email enviado exitosamente\n")
@@ -1944,7 +1944,7 @@ Clases hijas sobrescriben métodos de la clase padre para darles un comportamien
         
         def enviar(self):
             """Implementación específica para SMS"""
-            print(f"📱 Enviando SMS a {self.numero_telefono}")
+            print(f"   Enviando SMS a {self.numero_telefono}")
             print(f"   Para: {self.destinatario}")
             print(f"   Mensaje: {self.mensaje[:20]}...")  # SMS tiene límite
             print(f"   ✓ SMS enviado exitosamente\n")
@@ -1960,7 +1960,7 @@ Clases hijas sobrescriben métodos de la clase padre para darles un comportamien
         
         def enviar(self):
             """Implementación específica para push"""
-            print(f"🔔 Enviando push a dispositivo {self.dispositivo_id}")
+            print(f"   Enviando push a dispositivo {self.dispositivo_id}")
             print(f"   Para: {self.destinatario}")
             print(f"   Mensaje: {self.mensaje}")
             print(f"   ✓ Push enviado exitosamente\n")
@@ -1976,7 +1976,7 @@ Clases hijas sobrescriben métodos de la clase padre para darles un comportamien
         
         def enviar(self):
             """Implementación específica para Slack"""
-            print(f"💬 Enviando mensaje a Slack en canal #{self.canal}")
+            print(f"   Enviando mensaje a Slack en canal #{self.canal}")
             print(f"   Para: {self.destinatario}")
             print(f"   Mensaje: {self.mensaje}")
             print(f"   ✓ Mensaje de Slack enviado exitosamente\n")
@@ -2178,7 +2178,7 @@ Python tiene funciones polimórficas integradas:
     print("=" * 60)
 
     # len() funciona con diferentes tipos
-    print(f"len([1, 2, 3]) = {len([1, 2, 3])}")              # 3
+    print(f"len([1, 2, 3]) = {len([1, 2, 3])}")             # 3
     print(f"len('Hola') = {len('Hola')}")                   # 4
     print(f"len(real_madrid) = {len(real_madrid)}")         # 11
     print(f"len(mi_playlist) = {len(mi_playlist)}")         # 4
@@ -3071,3 +3071,4 @@ Los decoradores son una de las características más poderosas y elegantes de Py
 - Python Tutorial: https://docs.python.org/3/tutorial/
 - Real Python: https://realpython.com/
 - Python.org: https://www.python.org/
+
