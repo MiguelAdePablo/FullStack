@@ -201,13 +201,13 @@ Las clases permiten:
     libro3 = Libro("El Principito", "Antoine de Saint-Exupéry", "978-0-15-601219-5", 1943)
 
     # Mostrar información
-    print("\n📚 LIBROS EN LA BIBLIOTECA:")
+    print("\n LIBROS EN LA BIBLIOTECA:")
     print(libro1.info())
     print(libro2.info())
     print(libro3.info())
 
     # Prestar libros
-    print("\n📖 PRESTAMOS:")
+    print("\n PRESTAMOS:")
     libro1.prestar("Ana")
     libro2.prestar("Carlos")
 
@@ -3071,4 +3071,5 @@ Los decoradores son una de las características más poderosas y elegantes de Py
 - Python Tutorial: https://docs.python.org/3/tutorial/
 - Real Python: https://realpython.com/
 - Python.org: https://www.python.org/
+
 
