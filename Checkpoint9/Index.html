@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottega Diner</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #a5a5a5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 { 
+            color: #2c3e50; 
+            margin-bottom: 0.5rem;
+        }
+        p { 
+            color: #7f8c8d; 
+            margin-bottom: 2rem;
+        }
+        .btn-start {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .btn-start:hover { 
+            background-color: #d35400; 
+            transform: translateY(-2px);
+        }
+        .btn-start:active {
+            transform: translateY(0);
+        }
+        .note {
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #95a5a6;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="Images/Github.png" alt="Github">
+    
+    <div class="container">
+        <h1>🍽️  Bottega Diner</h1>
+        <p>Pedidos & Facturación</p>
+        <button class="btn-start" onclick="startBottegaDiner()">Iniciar Pedido</button>
+        <p class="note">Asegúrate de permitir las ventanas emergentes en este sitio.</p>
+    </div>
+    <script src="MenuDinner.js"></script>
+</body>
+</html>
