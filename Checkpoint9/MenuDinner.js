@@ -1,6 +1,3 @@
-/**
- * BOTTEGA DINER - Selección híbrida (número o nombre)
- */
 
 // ============================================================================
 // CONFIGURACIÓN Y DATOS
@@ -167,7 +164,7 @@ function selectItemFromCategory(categorynombre, items) {
     return selectedOption;
 }
 
-// DECISIÓN: toFixed(2) para precisión monetaria en todos los cálculos
+// DECISIÓN: Precisión monetaria en todos los cálculos
 function generateBill(order) {
     if (!order || order.length === 0) return;
 
