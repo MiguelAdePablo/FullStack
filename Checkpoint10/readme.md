@@ -1,1 +1,0 @@
-Examen oral, sin ejercicios.
