@@ -1,4 +1,4 @@
-# ![](./Images/Github.png) &nbsp;&nbsp;  Checkpoint 5
+# ![](./Images/Github.png) &nbsp;&nbsp;  Checkpoint 6
 
 
 Los conceptos a desarrollar en la documentación son los siguientes:
