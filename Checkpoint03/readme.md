@@ -16,4 +16,4 @@ During the first section of Module 2, you have learned all about Python. Python 
 - Exercise 7: Get the first word from your string using indexes. Use the upper function to transform the letters into uppercase. Create a new string that takes the uppercase word and the rest of the original string.
 - Exercise 8: Use string interpolation to print out a sentence that contains your number variable.
 - Exercise 9: Print “hello world”.
-- Exercise 10:create a string that contains the word “Hola.” Using the keyword in the search method or the index, find and select “Hello” in your string. Then, using the replace function, replace ‘Hello’ in your string with "adios.”
+- Exercise 10: Create a string that contains the word “Hola.” Using the keyword in the search method or the index, find and select “Hello” in your string. Then, using the replace function, replace ‘Hello’ in your string with "adios.”
