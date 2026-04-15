@@ -1,3 +1,23 @@
+# ![](./Images/Github.png) &nbsp;&nbsp;    ✨ FullStack Course Exercises Repository
+
+This repository contains a collection of exercises, projects, and practical assignments developed during a FullStack training program.
+
+Each folder represents a specific module, topic, or course section, and includes hands-on work designed to reinforce both frontend and backend concepts.
+
+The content reflects a learning-by-doing approach, where theory is applied through real coding challenges.
+
+---
+
+## 🧠 What You Will Find Here
+
+- 🧩 Practical exercises from different modules  
+- 🌐 Frontend development (HTML, CSS, JavaScript, frameworks)  
+- ⚙️ Backend development (APIs, databases, server logic)  
+- 🔗 FullStack integrations (client-server communication)  
+- 🚀 Small projects and experiments  
+
+
+
 Each directory may include:
 
 - Source code
