@@ -43,6 +43,7 @@ The main objectives of this repository are:
 Depending on the exercise, the following technologies may be used:
 
 - HTML5 / CSS3
+- Python
 - JavaScript (ES6+)
 - Frontend frameworks (e.g., React)
 - Backend technologies (Node.js, Express, etc.)
